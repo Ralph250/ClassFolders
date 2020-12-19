@@ -75,3 +75,6 @@ html{
 .zoom:hover{
     transform: scale(1.2);
 }
+.icons{
+text-decoration: none;
+}

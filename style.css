@@ -66,3 +66,12 @@ body {
 html{
     scroll-behavior:smooth;
 }
+.zoom{
+    transition: transform 1s;
+    
+    background-color:azure;
+    
+}
+.zoom:hover{
+    transform: scale(1.2);
+}

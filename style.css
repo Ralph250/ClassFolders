@@ -103,6 +103,7 @@ p {
     font-size: 20px;
     font-family: fantasy;
     text-align: center;
+    display:block;
      
     
 
@@ -110,7 +111,8 @@ p {
 }
 
 .links:hover {
-    background-color: white;
+    
+    color:red;
 }
 
 #work {
@@ -170,4 +172,17 @@ background-color:aqua;
 .icon a{
     color:black;
     text-shadow:none; 
+}
+.my_nav_bar{
+    z-index:99999;
+    top:0px;
+    position:sticky;
+    
+}
+.contact2{
+    display:block;
+
+}
+.contact1{
+display:block;
 }
